@@ -1,0 +1,24 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: aquamarine;
+}
+.three{
+    background-color: cornflowerblue;
+}
+.four{
+    background-color: darkorange;
+}
+.five{
+    background-color: brown;
+}
+.six{
+    background-color: darkred;
+}
